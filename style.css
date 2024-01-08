@@ -288,3 +288,50 @@ input#yourmail {
     font-weight: bold;
     border-radius: 100px;
 }
+
+
+/*****************Footer****************/
+
+.footer-area{
+    background-color:#070211;
+    padding: 100px;
+}
+
+.footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.phone-call{
+    display: flex;
+}
+
+
+.website{
+    display: flex;
+}
+
+hr{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+
+.social-link{
+
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.last-para{
+    color: #FFF;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
