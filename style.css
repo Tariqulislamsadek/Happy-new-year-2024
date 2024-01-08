@@ -2,210 +2,276 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-    
-header{
-  display: flex;
+img {
+    max-width: 100%;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    font-family: Inter;
+}
+.primary-button {
+    background-color: #F00;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: Inter;
 }
 
-.container{
-    background:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url("./images/Banner\ Image.png");
-    width: 1320px;
-    height: 600px;
+
+/**************** Header Section **********************/
+.header-area {
+    margin-bottom: 100px;
+}
+.header-bg {
+    background-image: url(images/BannerImage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header-content {
+    text-align: center;
+    color: #fff;
     border-radius: 16px;
-    margin-top: 50px;
-    margin-left:110px;
-    margin-right:110px;
-    
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    padding: 150px 0;
 }
 
-.banner-text{
-
-    color: darkorange;
+.header-content h3 {
+    color: #FFF;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
     font-style: normal;
-    font-weight: 1000;
+    font-weight: 400;
     line-height: normal;
-    margin-top: 200px;
 }
-
-.banner-content{
-
-    width: 632px;
-    color:darkorange;
+.header-content h1 {
+    color: #FFF;
     text-align: center;
     font-family: Merriweather;
-    font-size: 40px;
+    font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: 95px; /* 131.944% */
-    margin-left: 300px;
 }
 
 
-
-.offer{
-    width: 700px;
-    height: 600px;
-   
-
+/******************** Discount Section ***************/
+.discount-area {
+    margin-bottom: 100px;
 }
-
-.section-title{
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-top: 40px;
-margin-left: 500px;
-}
-
-
-.section-title p{
-    color: #F00;
-text-align: center;
-font-family: Inter;
-font-size: 10px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-bottom: 5px;
-}
-
-.section-title h2{
-    color: #070211;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-
-.offer-img{
-    
-    height: 400px;
-    margin-left: 350px;
-    margin-top: 8px;
-}
-
-
-.party-banner-main{
-
-    display: flex;
-    justify-content: space-around;
-}
-
-.container-2{
-    background-image: url(./images/Vectorrr.png);
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    width: 1200px;
-    height: 500px;
-    border-radius: 16px;
-    margin-top: 10px;
-    margin-left:110px;
-    margin-right:110px;
+.discount-text {
     text-align: center;
-    justify-content: space-between;
-    padding-top: 80px;
-    background-repeat: no-repeat;
-    
+    text-transform: uppercase;
+    font-family: Inter;
+}
+.discount-text h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.discount-text p {
+    color: #F00;
+    font-size: 24px;
+}
+.discount-text h2 {
+    font-size: 48px;
+}
+.discount-image {
+    text-align: center;
+}
+.discount-image img {
+    width: 602.9px;
+    height: auto;
 }
 
 
-.container-2-text h1{
-    width: 642px;
+/******************* Welcome Party Section *******************/
+.welcome-party-area {
+    margin-bottom: 100px;
+}
+.welcome-bg {
+    background-image: url(images/Vectorrr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome-row {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    border-radius: 10px;
+}
+.welcome-text {
+   color: #fff;
+   padding: 100px;
+}
+.welcome-text h1 {
     color: #FFF;
     font-family: Merriweather;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 60px; 
+    font-size: 50px;
     letter-spacing: 7.04px;
-    margin-top: 65px;
-    margin-left: 8px;
-    
 }
-
-.container-2-text p{
-
-    width: 697px;
-    color: white;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; /* 166.667% */
-    margin-bottom: 8px;
-    margin-left: 26px;
-
-}
-
-.container-2-text button{
-    background-color: #F00;
-    color: #FFF;
-    border: 0;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
- 
-   font-weight: 700;
-  
-   text-transform: uppercase;
-}
-
-.container-2-img{
-
-    margin-right: 10px;
-}
-
-.section-3-box{
-    width: 1200px;
-    height: 300px;
-    background-color:#FFE8E8;
-    /* border: 1px solid black; */
-    position: absolute;
-    text-align: center;
-    margin-top: 60px;
-    margin-left: 100px;
+.welcome-text p {
+    color: #ddd;
     margin-bottom: 20px;
 }
-
-.section-3-text{
-
-    color: #070211;
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-margin-top: 80px;
+.welcome-text a {
+    color: #FFF;
+}
+.welcome-image img {
+    width: 260.83px;
+    height: auto;
+    padding: 30px;
 }
 
-.heading-color{
+
+
+/********************** Event Area *************/
+.event-area {
+    margin-bottom: 100px;
+}
+.event-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Inter';
+    font-size: 23px;
+}
+.event-section p {
+    margin-bottom: 15px;
+}
+.event-section b {
     color: #F00;
 }
 
+/***************** Coming Soon Section ****************/
+.coming-soon-area {
+    margin-bottom: 100px;
+}
+.coming-soon-row {
+    display: flex;
+}
+.coming-soon-item {
+    width: 33.33%;
+}
+img.coming-soon-middle {
+    width: 200px;
+    height: auto;
+    border: 7px solid red;
+    border-radius: 100%;
+    padding: 10px;
+}
+.coming-soon-item h2 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 16px;
+}
 
-.section-3-button button{
 
-    display: inline-flex;
-    padding: 16px 32px;
-    justify-content: center;
+
+/************* Fifty Percent Discount **************/
+
+section.gift-area {
+    margin-top: 500px;
+}
+.fifty-discount-area {
+    position: relative;
+}
+.holiday-content {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.holiday-content p {
+    color: rgba(7, 2, 17, 0.60);
+}
+.holiday-title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333 !important;
+}
+.holiday-content h1 {
+    font-family: Merriweather;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.holiday-content h1 span {
+    color: red;
+}
+
+.f-discount-row {
+    display: flex;
+}
+img.discount-image {
+    position: absolute;
+    top: 225px;
+    width: 210px;
+    right: 330px;
+}
+.f-discount-one img {
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    width: 530px;
+}
+.f-discount-two img {
+    position: absolute;
+    right: 135px;
+    width: 300px;
+}
+.red-background {
+    background: red;
+    height: 132px;
+    width: 80%;
+    position: absolute;
+    bottom: -435px;
+}
+
+/************* Portfolio Section **************/
+.portfolio-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 31.33%;
+    background: #ddd;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+
+/*************** Subscribe Content *****************/
+.subscribe-area {
+   margin-bottom: 100px;
+}
+.subscribe-content {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+input#yourmail {
+    background: #FFF;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 210px;
+}
+.subscribe-content input[type="submit"] {
+    background: red;
+    border: none;
     color: #FFF;
-    align-items: center;
-   gap: 10px;
-   border-radius: 8px;
-   background: #F00;
-   border: 0;
+    padding: 10px 17px;
+    font-weight: bold;
+    border-radius: 100px;
 }
